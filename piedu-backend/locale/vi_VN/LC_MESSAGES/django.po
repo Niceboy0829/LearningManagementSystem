@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-15 11:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: core/apps.py:7 core/apps.py:8
+msgid "Core"
+msgstr ""
+
+#: core/models.py:10
+msgid "Male"
+msgstr "Nam"
+
+#: core/models.py:11
+msgid "Female"
+msgstr "Nữ"
+
+#: core/models.py:12 syllabus/models.py:12
+msgid "Other"
+msgstr ""
+
+#: core/models.py:16 course/models.py:33 course/models.py:48
+msgid "Code"
+msgstr ""
+
+#: core/models.py:17 course/models.py:32
+msgid "Avatar"
+msgstr "Ảnh Đại Diện"
+
+#: core/models.py:18
+msgid "Phone Number"
+msgstr "Số Điện Thoại"
+
+#: core/models.py:19
+msgid "Gender"
+msgstr "Giới Tính"
+
+#: core/models.py:20
+msgid "Unit"
+msgstr "Đơn Vị Công Tác"
+
+#: core/models.py:22
+msgid "Birthday"
+msgstr "Sinh Nhật"
+
+#: core/models.py:23
+msgid "Address"
+msgstr "Địa Chỉ"
+
+#: core/models.py:29
+msgid "User"
+msgstr "Người sử dụng"
+
+#: core/models.py:30
+msgid "Users"
+msgstr "Người sử dụng"
+
+#: course/apps.py:6
+msgid "Course"
+msgstr "Khóa Học"
+
+#: course/apps.py:7
+msgid "Courses"
+msgstr "Khóa Học"
+
+#: course/models.py:11 course/models.py:35
+msgid "Course Category"
+msgstr "Loại Môn Học"
+
+#: course/models.py:16
+msgid "Catergory"
+msgstr "Loại"
+
+#: course/models.py:17
+msgid "Categories"
+msgstr "Loại"
+
+#: course/models.py:31 course/models.py:40 course/models.py:53
+msgid "Subject"
+msgstr "Môn Học"
+
+#: course/models.py:41
+msgid "Subjects"
+msgstr "Môn học"
+
+#: course/models.py:49
+msgid "Name"
+msgstr "Tên Môn Học"
+
+#: course/models.py:50
+msgid "Description"
+msgstr "Mô Tả"
+
+#: course/models.py:51
+msgid "Start time"
+msgstr "Bắt Đầu Khóa"
+
+#: course/models.py:52
+msgid "End time"
+msgstr "Kết Thúc Khóa"
+
+#: course/models.py:58 course/models.py:126 course/models.py:152
+#: course/models.py:167 course/models.py:181 syllabus/models.py:20
+#: syllabus/models.py:73
+msgid "Class"
+msgstr "Lớp Học"
+
+#: course/models.py:59
+msgid "Classes"
+msgstr "Lớp Học"
+
+#: course/models.py:127
+msgid "Day Of Week"
+msgstr "Thứ"
+
+#: course/models.py:128
+msgid "Start Session"
+msgstr "Bắt Đầu Tiết Học"
+
+#: course/models.py:129
+msgid "End Session"
+msgstr "Kết Thúc Tiết Học"
+
+#: course/models.py:134
+msgid "Schedule"
+msgstr "Thời Gian Biểu"
+
+#: course/models.py:135
+msgid "Schedules"
+msgstr "Thời Gian Biểu"
+
+#: course/models.py:154
+msgid "Lecturer"
+msgstr "Giảng Viên"
+
+#: course/models.py:159
+msgid "Class - Lecturer"
+msgstr "Học Phần - Giảng Viên"
+
+#: course/models.py:160
+msgid "Classes - Lecturers"
+msgstr "Học Phần - Giảng Viên"
+
+#: course/models.py:168 course/models.py:183
+msgid "Student"
+msgstr "Sinh Viên"
+
+#: course/models.py:173
+msgid "Class - Student"
+msgstr "Học Phần - Sinh Viên"
+
+#: course/models.py:174
+msgid "Classes - Students"
+msgstr "Học Phần - Sinh Viên"
+
+#: course/models.py:188
+msgid "Enroll Request"
+msgstr "Yêu Cầu Tham Gia"
+
+#: course/models.py:189
+msgid "Enroll Requests"
+msgstr "Yêu Cầu Tham Gia"
+
+#: syllabus/apps.py:6 syllabus/models.py:26 syllabus/models.py:27
+#: syllabus/models.py:49
+msgid "Syllabus"
+msgstr "Đề Cương"
+
+#: syllabus/apps.py:7
+msgid "Syllabuses"
+msgstr "Đề Cương"
+
+#: syllabus/models.py:7
+msgid "PDF"
+msgstr ""
+
+#: syllabus/models.py:8
+msgid "DOC/DOCX"
+msgstr ""
+
+#: syllabus/models.py:9
+msgid "IMG/PNG/SVG/GIF"
+msgstr ""
+
+#: syllabus/models.py:10
+msgid "MP4/AVI"
+msgstr ""
+
+#: syllabus/models.py:11
+msgid "MP3"
+msgstr ""
+
+#: syllabus/models.py:18
+msgid "Syllabus's title"
+msgstr "Tên Đề Cương"
+
+#: syllabus/models.py:19
+msgid "Syllabus's content"
+msgstr "Nội Dung Đề Cương"
+
+#: syllabus/models.py:21
+msgid "Week"
+msgstr "Tuần"
+
+#: syllabus/models.py:48
+msgid "Material's Name"
+msgstr "Tên Tài Liệu"
+
+#: syllabus/models.py:50
+msgid "Material's Type"
+msgstr "Loại Tài Liệu"
+
+#: syllabus/models.py:56
+msgid "Material"
+msgstr "Tài Liệu"
+
+#: syllabus/models.py:57
+msgid "Materials"
+msgstr "Tài Liệu"
+
+#: syllabus/models.py:79
+msgid "Syllabus Template"
+msgstr "Mẫu Đề Cương"
+
+#: syllabus/models.py:80
+msgid "Syllabus Templates"
+msgstr "Mẫu Đề Cương"
+
+#: templates/admin/app_index.html:9
+#: templates/admin/auth/user/change_password.html:13
+#: templates/admin/base.html:61 templates/admin/change_form.html:18
+msgid "Home"
+msgstr ""
+
+#: templates/admin/auth/user/add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+
+#: templates/admin/auth/user/add_form.html:8
+msgid "Enter a username and password."
+msgstr ""
+
+#: templates/admin/auth/user/change_password.html:17
+#: templates/admin/auth/user/change_password.html:55
+#: templates/admin/base.html:49
+msgid "Change password"
+msgstr "Thay đổi mật khẩu "
+
+#: templates/admin/auth/user/change_password.html:28
+#: templates/admin/change_form.html:47
+msgid "Please correct the error below."
+msgstr ""
+
+#: templates/admin/auth/user/change_password.html:28
+#: templates/admin/change_form.html:47
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/admin/auth/user/change_password.html:32
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: templates/admin/base.html:35
+msgid "Welcome,"
+msgstr ""
+
+#: templates/admin/base.html:40
+msgid "View site"
+msgstr "Đi tới trang web"
+
+#: templates/admin/base.html:45
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/base.html:51
+msgid "Log out"
+msgstr "Đăng xuất"
+
+#: templates/admin/base_site.html:3
+msgid "Django site admin"
+msgstr ""
+
+#: templates/admin/base_site.html:6
+msgid "PIEdu administration"
+msgstr "Quản lý PIEdu"
+
+#: templates/admin/change_form.html:21
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: templates/admin/change_form.html:33
+msgid "History"
+msgstr ""
+
+#: templates/admin/change_form.html:35
+#: templates/admin/edit_inline/stacked.html:14
+#: templates/admin/edit_inline/tabular.html:36
+msgid "View on site"
+msgstr ""
+
+#: templates/admin/edit_inline/stacked.html:12
+#: templates/admin/edit_inline/tabular.html:34 templates/admin/index.html:37
+#: templates/admin/widgets/related_widget_wrapper.html:10
+msgid "Change"
+msgstr "Thay đổi"
+
+#: templates/admin/edit_inline/tabular.html:20
+msgid "Delete?"
+msgstr ""
+
+#: templates/admin/includes/object_delete_summary.html:2
+msgid "Summary"
+msgstr ""
+
+#: templates/admin/index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: templates/admin/index.html:31
+#: templates/admin/widgets/related_widget_wrapper.html:17
+#, fuzzy
+#| msgid "Address"
+msgid "Add"
+msgstr "Thêm"
+
+#: templates/admin/index.html:47
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: templates/admin/index.html:55
+msgid "Recent actions"
+msgstr ""
+
+#: templates/admin/index.html:56
+msgid "My actions"
+msgstr ""
+
+#: templates/admin/index.html:60
+msgid "None available"
+msgstr ""
+
+#: templates/admin/index.html:74
+msgid "Unknown content"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:9
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:23
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr ""
+
+#: templates/admin/widgets/related_widget_wrapper.html:24
+msgid "Delete"
+msgstr ""
